@@ -1,3 +1,6 @@
 [submodule "emacs-live"]
 	path = emacs-live
 	url = git://github.com/rothmichaels/emacs-live.git
+[submodule "packs/roth-pack"]
+	path = packs/roth-pack
+	url = git://github.com/rothmichaels/roth-pack.git
