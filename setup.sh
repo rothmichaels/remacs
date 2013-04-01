@@ -13,8 +13,14 @@ then
 fi
 ln -s "$PWD/$SDIR/.emacs-live.el" ~/.emacs-live.el
 
+if [ -a ~/.custom-configuration.el ];
+then
+  mv ~/.custom-configuration.el ~/.custom-configuration.el.bak_$(date +%Y.%m.%d)
+fi
+ln -s "$PWD/$SDIR/custom-configuration.el" ~/.custom-configuration.el
+
 if [ -a ~/.emacs-live-packs.d ];
 then
-  mv ~/.emacs-live-packs.d ~/.emacs-live-packs.d.bak_$(date +Y.%m.%d)
+  mv ~/.emacs-live-packs.d ~/.emacs-live-packs.d.bak_$(date +%Y.%m.%d)
 fi
 ln -s "$PWD/$SDIR/packs" ~/.emacs-live-packs.d

@@ -1,4 +1,4 @@
-(live-use-packs '(live/foundation-pack
+(live-use-packs '(dev/foundation-pack
                   dev/colour-pack
                   live/clojure-pack
                   live/lang-pack
@@ -9,6 +9,4 @@
                   ~/.emacs-live-packs.d/mithrandir-theme
                   ~/.emacs-live-packs.d/drupal-pack))
 
-(server-start)
-
-;(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
+(live-set-custom-file "~/git/remacs/custom-configuration.el" )
