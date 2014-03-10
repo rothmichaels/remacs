@@ -1,8 +1,8 @@
 (live-use-packs '(dev/foundation-pack
+		  dev/power-pack
                   dev/colour-pack
-                  live/clojure-pack
-                  live/lang-pack
-                  dev/power-pack
+                  dev/clojure-pack
+                  dev/lang-pack
        	          dev/git-pack))
 
 (live-add-packs '(~/.emacs-live-packs.d/roth-pack
