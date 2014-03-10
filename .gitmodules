@@ -10,3 +10,6 @@
 [submodule "packs/drupal-pack"]
 	path = packs/drupal-pack
 	url = git://github.com/rothmichaels/drupal-pack.git
+[submodule "packs/nemacs"]
+	path = packs/nemacs
+	url = https://github.com/rothmichaels/nemacs.git
