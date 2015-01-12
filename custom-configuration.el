@@ -11,6 +11,8 @@
 
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 
+(require 'tex-site)
+
 (server-start)
 
 ;(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
