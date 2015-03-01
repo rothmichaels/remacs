@@ -1,10 +1,10 @@
-(live-use-packs '(stable/foundation-pack
-                  stable/colour-pack
-                  stable/lang-pack
-                  stable/power-pack
-       	          stable/git-pack
-                  stable/org-pack
-                  stable/clojure-pack))
+(live-use-packs '(dev/foundation-pack
+                  dev/colour-pack
+                  dev/lang-pack
+                  dev/power-pack
+       	          dev/git-pack
+                  dev/org-pack
+                  dev/clojure-pack))
 
 (live-add-packs '(~/.emacs-live-packs.d/roth-pack
                   ~/.emacs-live-packs.d/mithrandir-theme
