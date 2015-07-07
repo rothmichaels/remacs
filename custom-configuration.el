@@ -4,6 +4,8 @@
 
 (live-set-default-darwin-font "Courier-14")
 
+(setq magit-last-seen-setup-instructions "1.4.0")
+
 ;; (set-frame-position (selected-frame) 0 0)
 ;; (set-frame-height (selected-frame) 66)
 ;; (set-frame-width (selected-frame) 208)
