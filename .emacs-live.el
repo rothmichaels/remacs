@@ -10,5 +10,5 @@
                   ~/.emacs-live-packs.d/mithrandir-theme
 		  ~/.emacs-live-packs.d/nemacs/packs/buffer-move))
 
-(live-set-custom-file "~/git/remacs/custom-configuration.el" )
+(live-set-custom-file "~/lib/remacs/custom-configuration.el" )
 

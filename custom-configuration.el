@@ -13,7 +13,12 @@
 
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 
-(require 'tex-site)
+;; (require 'tex-site)
+
+;;; ROUNDTOWN ADDITIONS
+(live-set-default-darwin-font "Courier-16")
+(setq explicit-shell-file-name "emacs-bash.sh")
+;;; ROUNDTOWN END
 
 (server-start)
 
