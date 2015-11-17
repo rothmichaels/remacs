@@ -10,3 +10,6 @@
 [submodule "packs/nemacs"]
 	path = packs/nemacs
 	url = https://github.com/rothmichaels/nemacs.git
+[submodule "packs/scala-pack"]
+	path = packs/scala-pack
+	url = git://github.com/rothmichaels/scala-pack.git
