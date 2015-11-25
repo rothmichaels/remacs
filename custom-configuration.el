@@ -16,7 +16,7 @@
 ;; (require 'tex-site)
 
 ;;; ROUNDTOWN ADDITIONS
-(live-set-default-darwin-font "Courier-16")
+(live-set-default-darwin-font "Courier 18")
 (setq explicit-shell-file-name "emacs-bash.sh")
 ;;; ROUNDTOWN END
 
