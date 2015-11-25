@@ -13,3 +13,6 @@
 [submodule "packs/scala-pack"]
 	path = packs/scala-pack
 	url = git://github.com/rothmichaels/scala-pack.git
+[submodule "packs/swift-pack"]
+	path = packs/swift-pack
+	url = git://github.com/rothmichaels/swift-pack.git
