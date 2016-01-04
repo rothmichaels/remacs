@@ -9,7 +9,8 @@
 (live-add-packs '(~/.emacs-live-packs.d/roth-pack
                   ~/.emacs-live-packs.d/mithrandir-theme
 		  ~/.emacs-live-packs.d/nemacs/packs/buffer-move
-		  ~/.emacs-live-packs.d/scala-pack))
+		  ~/.emacs-live-packs.d/scala-pack
+                  ~/.emacs-live-packs.d/swift-mode))
 
 (live-set-custom-file "~/lib/remacs/custom-configuration.el" )
 
