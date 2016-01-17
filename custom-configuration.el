@@ -59,6 +59,7 @@
  '(haskell-process-type (quote ghci))
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
+ '(magit-log-arguments (quote ("--graph" "--color" "--decorate" "-n256")))
  '(org-agenda-files
    (quote
     ("~/Dropbox/org/organic-tones.org" "~/Dropbox/org/todo.org" "~/Dropbox/org/blog.org" "~/Dropbox/org/notes.org")))
