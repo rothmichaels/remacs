@@ -16,3 +16,6 @@
 [submodule "packs/swift-pack"]
 	path = packs/swift-pack
 	url = git://github.com/rothmichaels/swift-pack.git
+[submodule "packs/django-pack"]
+	path = packs/django-pack
+	url = git@github.com:rothmichaels/django-pack.git
