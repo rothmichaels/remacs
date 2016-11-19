@@ -32,10 +32,7 @@
 (add-hook 'org-mode-hook (lambda () (auto-complete-mode -1)))
 (add-hook 'org-mode-hook (lambda () (org-indent-mode 1)))
 (setq org-mobile-files (mapcar (lambda (s) (concat org-directory "/" s))
-                               '("notes.org"
-                                 "todo.org"
-                                 "blog.org"
-                                 "wasabi-web.org")))
+                               '("Workbar-App.org")))
 
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
@@ -60,9 +57,10 @@
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
  '(magit-log-arguments (quote ("--graph" "--color" "--decorate" "-n256")))
- '(org-agenda-files
+ '(org-agenda-files (quote ("~/Dropbox/org/Workbar-App.org")))
+ '(safe-local-variable-values
    (quote
-    ("~/Dropbox/org/organic-tones.org" "~/Dropbox/org/todo.org" "~/Dropbox/org/blog.org" "~/Dropbox/org/notes.org")))
+    ((python-shell-interpreter-args . "~/Documents/piccles.d/piccles_server/manage.py shell"))))
  '(sclang-auto-scroll-post-buffer t)
  '(sclang-eval-line-forward nil))
 (custom-set-faces
