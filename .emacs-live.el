@@ -10,7 +10,6 @@
                   ~/.emacs-live-packs.d/mithrandir-theme
 		  ~/.emacs-live-packs.d/nemacs/packs/buffer-move
 		  ~/.emacs-live-packs.d/scala-pack
-                  ~/.emacs-live-packs.d/swift-pack
-                  ~/.emacs-live-packs.d/django-pack))
+                  ~/.emacs-live-packs.d/swift-pack))
 
 (live-set-custom-file "~/lib/remacs/custom-configuration.el" )
