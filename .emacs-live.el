@@ -4,7 +4,8 @@
                   dev/power-pack
        	          dev/git-pack
                   dev/org-pack
-                  dev/clojure-pack))
+;                  dev/clojure-pack
+                  ))
 
 (live-add-packs '(~/.emacs-live-packs.d/roth-pack
                   ~/.emacs-live-packs.d/mithrandir-theme

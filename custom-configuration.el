@@ -57,6 +57,10 @@
  '(haskell-stylish-on-save t)
  '(haskell-tags-on-save t)
  '(magit-log-arguments (quote ("--graph" "--color" "--decorate" "-n256")))
+ '(magit-popup-use-prefix-argument (quote default))
+ '(magit-refs-sections-hook
+   (quote
+    (magit-insert-error-header magit-insert-branch-description magit-insert-local-branches magit-insert-remote-branches)))
  '(org-agenda-files (quote ("~/Dropbox/org/Workbar-App.org")))
  '(safe-local-variable-values
    (quote
